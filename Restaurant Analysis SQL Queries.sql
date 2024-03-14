@@ -198,7 +198,7 @@ WHERE
     order_id IN (440 , 2075, 1957, 330, 2675)
 GROUP BY order_id , category;
 
--- Insights gained. Asian, Mexican and Italian dishes seem to be favoured by customers especially those who spend a lot and are recommended to be kept on the menu. Also, Italian dishes were ordered the most by top spenders.
+
 -- Aggregated by Item name
 SELECT 
     category, COUNT(order_details_id) AS num_items
