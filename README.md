@@ -1,0 +1,1 @@
+A new restaurant wanted to see what menu items were most popular with it's customers so as to tailor their menu to be both appealing and profitable. An exploratory SQL analysis was done to provide insights. Joins, a subquery and aggregate functions were utilized to query the dataset.
