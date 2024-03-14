@@ -111,7 +111,7 @@ FROM
     menu_items ON order_details.item_id = menu_items.menu_item_id;
 
 /*What were the least and most ordered items?*/
--- least expensive
+-- least ordered
 SELECT 
     item_name, COUNT(order_details_id) AS num_purchases
 FROM
@@ -121,7 +121,7 @@ FROM
 GROUP BY item_name
 ORDER BY num_purchases;
 
--- most expensive
+-- most ordered
 SELECT 
     item_name, COUNT(order_details_id) AS num_purchases
 FROM
